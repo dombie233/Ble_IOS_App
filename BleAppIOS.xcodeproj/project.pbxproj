@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C0B85AD22ECC91F100EF4B61 /* HeartRateMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0B85AE82ECC91F600EF4B61 /* HeartRateMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartRateMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0B85AF22ECC91F600EF4B61 /* HeartRateMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartRateMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B85AD22ECC91F100EF4B61 /* BleAppIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BleAppIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B85AE82ECC91F600EF4B61 /* BleAppIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleAppIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B85AF22ECC91F600EF4B61 /* BleAppIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleAppIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C0B85AFA2ECC91F600EF4B61 /* Exceptions for "HeartRateMonitor" folder in "HeartRateMonitor" target */ = {
+		C0B85AFA2ECC91F600EF4B61 /* Exceptions for "HeartRateMonitor" folder in "BleAppIos" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = C0B85AD12ECC91F100EF4B61 /* HeartRateMonitor */;
+			target = C0B85AD12ECC91F100EF4B61 /* BleAppIos */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		C0B85AD42ECC91F100EF4B61 /* HeartRateMonitor */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C0B85AFA2ECC91F600EF4B61 /* Exceptions for "HeartRateMonitor" folder in "HeartRateMonitor" target */,
+				C0B85AFA2ECC91F600EF4B61 /* Exceptions for "HeartRateMonitor" folder in "BleAppIos" target */,
 			);
 			path = HeartRateMonitor;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		C0B85AD32ECC91F100EF4B61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0B85AD22ECC91F100EF4B61 /* HeartRateMonitor.app */,
-				C0B85AE82ECC91F600EF4B61 /* HeartRateMonitorTests.xctest */,
-				C0B85AF22ECC91F600EF4B61 /* HeartRateMonitorUITests.xctest */,
+				C0B85AD22ECC91F100EF4B61 /* BleAppIos.app */,
+				C0B85AE82ECC91F600EF4B61 /* BleAppIosTests.xctest */,
+				C0B85AF22ECC91F600EF4B61 /* BleAppIosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0B85AD12ECC91F100EF4B61 /* HeartRateMonitor */ = {
+		C0B85AD12ECC91F100EF4B61 /* BleAppIos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0B85AFB2ECC91F600EF4B61 /* Build configuration list for PBXNativeTarget "HeartRateMonitor" */;
+			buildConfigurationList = C0B85AFB2ECC91F600EF4B61 /* Build configuration list for PBXNativeTarget "BleAppIos" */;
 			buildPhases = (
 				C0B85ACE2ECC91F100EF4B61 /* Sources */,
 				C0B85ACF2ECC91F100EF4B61 /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				C0B85AD42ECC91F100EF4B61 /* HeartRateMonitor */,
 			);
-			name = HeartRateMonitor;
+			name = BleAppIos;
 			packageProductDependencies = (
 			);
 			productName = HeartRateMonitor;
-			productReference = C0B85AD22ECC91F100EF4B61 /* HeartRateMonitor.app */;
+			productReference = C0B85AD22ECC91F100EF4B61 /* BleAppIos.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C0B85AE72ECC91F600EF4B61 /* HeartRateMonitorTests */ = {
+		C0B85AE72ECC91F600EF4B61 /* BleAppIosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0B85B002ECC91F600EF4B61 /* Build configuration list for PBXNativeTarget "HeartRateMonitorTests" */;
+			buildConfigurationList = C0B85B002ECC91F600EF4B61 /* Build configuration list for PBXNativeTarget "BleAppIosTests" */;
 			buildPhases = (
 				C0B85AE42ECC91F600EF4B61 /* Sources */,
 				C0B85AE52ECC91F600EF4B61 /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				C0B85AEB2ECC91F600EF4B61 /* HeartRateMonitorTests */,
 			);
-			name = HeartRateMonitorTests;
+			name = BleAppIosTests;
 			packageProductDependencies = (
 			);
 			productName = HeartRateMonitorTests;
-			productReference = C0B85AE82ECC91F600EF4B61 /* HeartRateMonitorTests.xctest */;
+			productReference = C0B85AE82ECC91F600EF4B61 /* BleAppIosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C0B85AF12ECC91F600EF4B61 /* HeartRateMonitorUITests */ = {
+		C0B85AF12ECC91F600EF4B61 /* BleAppIosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0B85B032ECC91F600EF4B61 /* Build configuration list for PBXNativeTarget "HeartRateMonitorUITests" */;
+			buildConfigurationList = C0B85B032ECC91F600EF4B61 /* Build configuration list for PBXNativeTarget "BleAppIosUITests" */;
 			buildPhases = (
 				C0B85AEE2ECC91F600EF4B61 /* Sources */,
 				C0B85AEF2ECC91F600EF4B61 /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				C0B85AF52ECC91F600EF4B61 /* HeartRateMonitorUITests */,
 			);
-			name = HeartRateMonitorUITests;
+			name = BleAppIosUITests;
 			packageProductDependencies = (
 			);
 			productName = HeartRateMonitorUITests;
-			productReference = C0B85AF22ECC91F600EF4B61 /* HeartRateMonitorUITests.xctest */;
+			productReference = C0B85AF22ECC91F600EF4B61 /* BleAppIosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C0B85ACD2ECC91F100EF4B61 /* Build configuration list for PBXProject "HeartRateMonitor" */;
+			buildConfigurationList = C0B85ACD2ECC91F100EF4B61 /* Build configuration list for PBXProject "BleAppIos" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0B85AD12ECC91F100EF4B61 /* HeartRateMonitor */,
-				C0B85AE72ECC91F600EF4B61 /* HeartRateMonitorTests */,
-				C0B85AF12ECC91F600EF4B61 /* HeartRateMonitorUITests */,
+				C0B85AD12ECC91F100EF4B61 /* BleAppIos */,
+				C0B85AE72ECC91F600EF4B61 /* BleAppIosTests */,
+				C0B85AF12ECC91F600EF4B61 /* BleAppIosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		C0B85AEA2ECC91F600EF4B61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0B85AD12ECC91F100EF4B61 /* HeartRateMonitor */;
+			target = C0B85AD12ECC91F100EF4B61 /* BleAppIos */;
 			targetProxy = C0B85AE92ECC91F600EF4B61 /* PBXContainerItemProxy */;
 		};
 		C0B85AF42ECC91F600EF4B61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0B85AD12ECC91F100EF4B61 /* HeartRateMonitor */;
+			target = C0B85AD12ECC91F100EF4B61 /* BleAppIos */;
 			targetProxy = C0B85AF32ECC91F600EF4B61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -292,6 +292,7 @@
 				DEVELOPMENT_TEAM = 67T48NJ4V2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HeartRateMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BleAppIos;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +321,7 @@
 				DEVELOPMENT_TEAM = 67T48NJ4V2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HeartRateMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BleAppIos;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -472,7 +474,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartRateMonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartRateMonitor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BleAppIos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BleAppIos";
 			};
 			name = Debug;
 		};
@@ -491,7 +493,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartRateMonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartRateMonitor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BleAppIos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BleAppIos";
 			};
 			name = Release;
 		};
@@ -532,7 +534,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0B85ACD2ECC91F100EF4B61 /* Build configuration list for PBXProject "HeartRateMonitor" */ = {
+		C0B85ACD2ECC91F100EF4B61 /* Build configuration list for PBXProject "BleAppIos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0B85AFE2ECC91F600EF4B61 /* Debug */,
@@ -541,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0B85AFB2ECC91F600EF4B61 /* Build configuration list for PBXNativeTarget "HeartRateMonitor" */ = {
+		C0B85AFB2ECC91F600EF4B61 /* Build configuration list for PBXNativeTarget "BleAppIos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0B85AFC2ECC91F600EF4B61 /* Debug */,
@@ -550,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0B85B002ECC91F600EF4B61 /* Build configuration list for PBXNativeTarget "HeartRateMonitorTests" */ = {
+		C0B85B002ECC91F600EF4B61 /* Build configuration list for PBXNativeTarget "BleAppIosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0B85B012ECC91F600EF4B61 /* Debug */,
@@ -559,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0B85B032ECC91F600EF4B61 /* Build configuration list for PBXNativeTarget "HeartRateMonitorUITests" */ = {
+		C0B85B032ECC91F600EF4B61 /* Build configuration list for PBXNativeTarget "BleAppIosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0B85B042ECC91F600EF4B61 /* Debug */,
