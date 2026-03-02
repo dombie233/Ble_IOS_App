@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>Ta aplikacja potrzebuje dostępu do Bluetooth aby połączyć się z sensorem Valkyrie1</string>
+	<string>This app needs access to Bluetooth to connect to the Valkyrie1 sensor</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>Ta aplikacja potrzebuje dostępu do Bluetooth aby komunikować się z urządzeniami BLE</string>
+	<string>This app needs access to Bluetooth to communicate with BLE devices</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>bluetooth-central</string>
