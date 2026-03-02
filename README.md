@@ -1,34 +1,42 @@
+🔵 BLE iOS App
+
 A simple iOS application demonstrating Bluetooth Low Energy (BLE) scanning and communication using Apple’s CoreBluetooth framework. 📱🔵
 
 This project lets you discover nearby BLE devices, connect to a device, and interact with its services and characteristics.
 
-Requirements
+📋 Requirements
 
-✔️ Xcode (latest recommended)
-✔ iOS device with BLE support (BLE doesn’t work on Simulator)
-✔ Swift & CoreBluetooth framework
+✔️ Xcode (latest version recommended)
+
+✔️ iOS device with BLE support (BLE does not work on the Simulator)
+
+✔️ Swift
+
+✔️ CoreBluetooth framework
 
 🛠 Installation
-
-Clone the repo
-
+1. Clone the repository
 git clone https://github.com/dombie233/Ble_IOS_App.git
+2. Open the project
 
-Open the .xcodeproj in Xcode
+Open the .xcodeproj file in Xcode.
 
-Build and run the app on a physical iPhone
-BLE requires real hardware — simulators do not support Bluetooth.
+3. Build and run
 
-How to Add Your BLE Device
+Run the app on a physical iPhone.
+
+⚠️ BLE requires real hardware — the iOS Simulator does not support Bluetooth.
+
+🔵 How to Add Your BLE Device
 
 This app scans only for specific BLE devices.
 To make your device visible in the app, follow these steps:
 
 1️⃣ Make Sure Bluetooth Is Enabled
 
-Enable Bluetooth on your iPhone.
+Enable Bluetooth on your iPhone
 
-Grant Bluetooth permission when prompted by the app.
+Grant Bluetooth permission when prompted by the app
 
 2️⃣ Configure Your Device Name
 
@@ -48,14 +56,20 @@ ESP32_TempMonitor
 If your device has a different name, update the array:
 
 private let targetNames = ["YourDeviceName"]
-
-
-Usage
+🚀 Usage
 
 Launch the app on your iPhone
 
-Head to the “Scan” screen to start scanning for BLE devices
+Go to the Scan screen
+
+Wait for nearby BLE devices to appear
 
 Tap a discovered device to connect
 
-Use characteristic views to read/write or subscribe to notifications
+Use characteristic views to:
+
+Read values
+
+Write values
+
+Subscribe to notifications
