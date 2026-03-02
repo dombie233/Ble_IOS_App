@@ -13,6 +13,7 @@ class BLEScanner: NSObject, ObservableObject, CBCentralManagerDelegate {
     
     private let centralManager = BluetoothManager.shared.central
     private var scanTimeoutWorkItem: DispatchWorkItem?
+    //target Devices
     private let targetNames = ["Valkyrie", "ESP32"]
 
     func startScan() {
@@ -20,7 +21,7 @@ class BLEScanner: NSObject, ObservableObject, CBCentralManagerDelegate {
         centralManager.delegate = self
         
         guard centralManager.state == .poweredOn else {
-            print("Bluetooth nie jest włączony. Stan: \(centralManager.state.rawValue)")
+            
             return
         }
         
@@ -30,7 +31,7 @@ class BLEScanner: NSObject, ObservableObject, CBCentralManagerDelegate {
        
         centralManager.scanForPeripherals(withServices: nil, options: [CBCentralManagerScanOptionAllowDuplicatesKey: false])
         
-        // Timeout
+        
         scanTimeoutWorkItem?.cancel()
         let workItem = DispatchWorkItem { [weak self] in self?.stopScan() }
         scanTimeoutWorkItem = workItem
